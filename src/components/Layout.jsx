@@ -20,10 +20,13 @@ export default function Layout() {
             </div>
             <nav className="nav">
               <Link to="/" className={isActive('/')}>
-                成员
+                首页
               </Link>
               <Link to="/papers" className={isActive('/papers')}>
-                论文
+                成果
+              </Link>
+              <Link to="/members" className={isActive('/members')}>
+                团队成员
               </Link>
               <Link to="/students" className={isActive('/students')}>
                 学生
@@ -45,14 +48,14 @@ export default function Layout() {
           <div className="footer-content">
             <div className="footer-section">
               <h3>联系方式</h3>
-              <p>Email: contact@example.com</p>
-              <p>地址: 南京市</p>
-              <p>办公室: XXX</p>
+              <p>Email: tis-nj@outlook.com; myli@iaii.ac.cn</p>
+              <p>地址: 南京市江宁区麒麟街道天泉路168号</p>
             </div>
             <div className="footer-section">
               <h3>快速链接</h3>
-              <Link to="/">成员</Link>
-              <Link to="/papers">论文</Link>
+              <Link to="/">首页</Link>
+              <Link to="/papers">成果</Link>
+              <Link to="/members">团队成员</Link>
               <Link to="/students">学生</Link>
               <Link to="/recruitment">招生</Link>
             </div>
