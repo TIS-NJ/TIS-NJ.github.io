@@ -5,10 +5,19 @@ export default function Home() {
     <div className="home">
       <section className="hero">
         <div className="container">
-          <h2>欢迎来到可信智能软件团队</h2>
-          <p>
-            我们致力于研究和开发可信赖的智能软件系统，推动人工智能技术的创新与应用
-          </p>
+          <div className="hero-content">
+            <div className="hero-text">
+              <h2>可信智能软件团队</h2>
+              <p>
+                我们致力于研究和开发可信赖的智能软件系统，推动人工智能技术的创新与应用
+              </p>
+            </div>
+            <div className="hero-image">
+              <div className="image-placeholder">
+                <span>团队图片</span>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 

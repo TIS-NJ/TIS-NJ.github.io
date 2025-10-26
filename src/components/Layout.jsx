@@ -20,22 +20,13 @@ export default function Layout() {
             </div>
             <nav className="nav">
               <Link to="/" className={isActive('/')}>
-                首页
+                成员
               </Link>
-              <Link to="/about" className={isActive('/about')}>
-                关于我们
+              <Link to="/papers" className={isActive('/papers')}>
+                论文
               </Link>
-              <Link to="/research" className={isActive('/research')}>
-                研究方向
-              </Link>
-              <Link to="/members" className={isActive('/members')}>
-                团队成员
-              </Link>
-              <Link to="/publications" className={isActive('/publications')}>
-                研究成果
-              </Link>
-              <Link to="/contact" className={isActive('/contact')}>
-                联系我们
+              <Link to="/students" className={isActive('/students')}>
+                学生
               </Link>
             </nav>
           </div>
