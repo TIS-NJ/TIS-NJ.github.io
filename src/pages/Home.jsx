@@ -10,7 +10,7 @@ export default function Home() {
             <div className="hero-text">
               <h2>可信智能软件团队</h2>
               <p>
-                我们致力于研究和开发可信赖的智能软件系统，重要研究方向包括但不限于模型检测,形式化方法,深度学习模型应用,自动驾驶仿真系统,AI系统分析,大数据系统方向,具身智能安全,软件系统安全,约束求解
+                我们致力于研究和开发可信赖的智能软件系统，重要研究方向包括但不限于模型检测, 形式化方法, 深度学习模型应用, 自动驾驶仿真系统, AI系统分析, 大数据系统方向, 具身智能安全, 软件系统安全, 约束求解
               </p>
             </div>
             <div className="hero-image">
@@ -24,7 +24,6 @@ export default function Home() {
 
       <section className="features">
         <div className="container">
-          <h2>团队亮点</h2>
           <div className="feature-grid">
             <Link to="/members" className="feature-card-link">
               <div className="feature-card">
