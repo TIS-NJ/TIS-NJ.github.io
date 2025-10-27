@@ -75,7 +75,9 @@ export default function MemberDetail() {
         <h1>{member.name}</h1>
         <p className="member-title">{member.title}</p>
         <div className="member-description">
-          <p>{member.description}</p>
+          {member.description.split('\n').map((line, index) => (
+            <p key={index}>{line}</p>
+          ))}
         </div>
       </div>
     </div>
