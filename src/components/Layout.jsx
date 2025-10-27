@@ -23,16 +23,16 @@ export default function Layout() {
                 首页
               </Link>
               <Link to="/papers" className={isActive('/papers')}>
-                成果
+                研究成果
               </Link>
               <Link to="/members" className={isActive('/members')}>
-                团队成员
+                研究团队
               </Link>
               <Link to="/students" className={isActive('/students')}>
-                学生
+                人才培养
               </Link>
               <Link to="/recruitment" className={isActive('/recruitment')}>
-                招生
+                加入我们
               </Link>
             </nav>
           </div>
@@ -54,10 +54,10 @@ export default function Layout() {
             <div className="footer-section">
               <h3>快速链接</h3>
               <Link to="/">首页</Link>
-              <Link to="/papers">成果</Link>
-              <Link to="/members">团队成员</Link>
-              <Link to="/students">学生</Link>
-              <Link to="/recruitment">招生</Link>
+              <Link to="/papers">研究成果</Link>
+              <Link to="/members">研究团队</Link>
+              <Link to="/students">人才培养</Link>
+              <Link to="/recruitment">加入我们</Link>
             </div>
           </div>
           <p className="footer-copyright">

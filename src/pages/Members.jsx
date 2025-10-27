@@ -26,7 +26,7 @@ export default function Members() {
       <p>我们团队由以下成员组成：</p>
       
       <section style={{ marginTop: '2rem' }}>
-        <h2>研究员/导师</h2>
+        <h2>研究员</h2>
         <div className="member-grid">
           {researchers.map((member) => (
             <Link 
