@@ -1,7 +1,7 @@
 export default function Recruitment() {
   return (
     <div className="container">
-      <h1>招生信息</h1>
+      <h1>招聘信息</h1>
       <p>欢迎有志于从事可信智能软件研究的实习生、学生和毕业生加入我们团队。</p>
       
       <section style={{ marginTop: '2rem' }}>
