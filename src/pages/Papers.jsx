@@ -1,8 +1,9 @@
+import { Link } from 'react-router-dom'
 export default function Papers() {
   return (
     <div className="container">
       <h1>论文</h1>
-      <p>团队成立后成员发表的重要论文（团队成员的其他论文可以从<a href="/members">团队成员</a>的个人主页查看）：</p>
+      <p>团队成立后成员发表的重要论文（团队成员的其他论文可以从<Link to="/members">团队成员</Link>的个人主页查看）：</p>
       <ul>
         <li>《增量SAT/SMT问题的求解与应用综述》- 软件学报(CCFA) </li>
         <li>Revisiting Transferable Adversarial Images: Systemization, Evaluation, and New Insights - TPAMI(CCFA)</li>
